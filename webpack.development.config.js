@@ -8,6 +8,7 @@ const os = require('os')
 const ip = require('ip').address()
 const happyThreadPool = HappyPack.ThreadPool({ size: os.cpus().length })
 // test
+// save
 module.exports = assign({}, config, {
   devtool: 'cheap-module-eval-source-map',
   entry: [
